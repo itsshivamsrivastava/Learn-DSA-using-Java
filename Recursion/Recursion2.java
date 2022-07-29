@@ -1,3 +1,5 @@
+package Recursion;
+
 // Learn from Shardha Didi (Apna College)
 public class Recursion2 {
     // Q1. Print all permutations of a string.
