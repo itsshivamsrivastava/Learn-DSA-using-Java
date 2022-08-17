@@ -1,4 +1,4 @@
-package LeetCodeProblem.CyclicSort.findDuplicateNumbers;
+package CyclicSort.findDuplicateNumbers;
 
 import java.util.ArrayList;
 import java.util.List;

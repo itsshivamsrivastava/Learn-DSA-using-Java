@@ -1,4 +1,4 @@
-package LeetCodeProblem.CyclicSort.findAllMissing;
+package CyclicSort.findAllMissing;
 
 import java.util.ArrayList;
 import java.util.List;

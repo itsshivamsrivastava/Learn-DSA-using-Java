@@ -1,4 +1,4 @@
-package LeetCodeProblem.BinarySearch;
+package BinarySearch;
 
 public class Smallestletter {
     public static void main(String[] args) {

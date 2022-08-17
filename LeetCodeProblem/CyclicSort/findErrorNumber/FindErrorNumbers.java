@@ -1,4 +1,4 @@
-package LeetCodeProblem.CyclicSort.findErrorNumber;
+package CyclicSort.findErrorNumber;
 
 public class FindErrorNumbers {
     public static void main(String[] args) {

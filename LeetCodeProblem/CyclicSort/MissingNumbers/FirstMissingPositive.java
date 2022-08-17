@@ -1,4 +1,4 @@
-package LeetCodeProblem.CyclicSort.MissingNumbers;
+package CyclicSort.MissingNumbers;
 
 public class FirstMissingPositive {
     public static void main(String[] args) {

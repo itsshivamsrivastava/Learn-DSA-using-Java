@@ -1,4 +1,4 @@
-package LeetCodeProblem.BinarySearch;
+package BinarySearch;
 
 public class SearchInsert {
     public static void main(String[] args) {

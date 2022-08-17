@@ -1,4 +1,4 @@
-package LeetCodeProblem.CyclicSort.MissingNumbers;
+package CyclicSort.MissingNumbers;
 
 // import java.util.Arrays;
 

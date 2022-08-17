@@ -1,4 +1,4 @@
-package LeetCodeProblem.BinarySearch;
+package BinarySearch;
 
 /* Find the first and last position of element in sorted array. */
 
