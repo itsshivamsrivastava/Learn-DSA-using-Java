@@ -1,20 +1,22 @@
-package Time_Complexity;
-
 public class TimeComplexity {
-    public static void main(String[] args) {
+
+    static void timeComplexity(){
         // k1 times
         int i;
         int j;
         int n = 3;
 
-        System.out.println("i    j0   j1   j2");
+        System.out.println("i      j0   j1   j2");
         for(i = 0; i < n; i++) {    // Running n times
-            System.out.print(i + "    ");
+            System.out.print(i + " =>   ");
             for(j = 0; j < n; j++) {    // Running n times
                 System.out.print(j + "    ");   // k2 times
             }
             System.out.println();
         }
+    }
+    public static void main(String[] args) {
+        timeComplexity();
         /* 
         Explanation of time complexity of above code:
             i = 0   1   2 ...... n-1
