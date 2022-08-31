@@ -16,7 +16,7 @@ public class TimeComplexity {
             System.out.println();
         }
         /* 
-        Explanation time complexity of above code:
+        Explanation of time complexity of above code:
             i = 0   1   2 ...... n-1
                 n + n + n + .... + n
               n(1 + 1 + 1 + .... + n)
@@ -25,7 +25,7 @@ public class TimeComplexity {
             Tn = k(n^2)     {k1 is non dominant term. So, it is removed.}
             Tn = O(n^2)     {k2 is constant term. So, Constants are removed.}
             Time Complexity is O(n^2)   {n is the input parameter.}
-            
+
             Space Complexity is O(1)    {No extra space is used.}
         */
     }
