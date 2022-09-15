@@ -1,6 +1,16 @@
 # DSA - Linked List
 - A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations.
 - The elements in a linked list are linked using pointers.
+- A linked list is a dynamic data structure.
+- Each element in a list is called a node.
+- The first node is called the head.
+- The last node points to null.
+- Each node contains two parts: data and a reference to the next node.
+- The last node has a reference to null.
+- The entry point into a linked list is called the head of the list.
+- The head is a reference to the first node in a linked list.
+- The head is null if the list is empty.
+- The head is the only reference that you need to keep track of to access the entire list.
 
 <img src="https://user-images.githubusercontent.com/73056786/190239678-18b42b01-59f7-46aa-8990-e066e0095ac1.png" alt="Linked-list"/>
 

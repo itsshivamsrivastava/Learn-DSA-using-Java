@@ -2,6 +2,13 @@ import java.util.LinkedList;
 
 public class LL {
     public static void main(String[] args) {
+
+        /* 
+        Linked List: 
+        
+
+        */
+
         
         // Create a linked list.
         LinkedList<Integer> list = new LinkedList<Integer>();
