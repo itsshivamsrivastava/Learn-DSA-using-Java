@@ -220,10 +220,10 @@
   - A shallow copy means that only the reference of the object is copied. If any changes are made to a copy of object, it will be reflected in the original object.
   - In Java, all wrapper classes (like Integer, Boolean, Byte etc) and String class are immutable. So, when we assign any variable to another, a copy of the reference is created. For example:
 
-    Integer a = 10;
-    Integer b = a;
-    b++;
-    System.out.println(a); // 10
+    Integer a = 10; <br>
+    Integer b = a; <br>
+    b++; <br>
+    System.out.println(a); // 10 <br>
     System.out.println(b); // 11
 
   - In the above example, a copy of the reference of a is created in b. So, any changes made to b will be reflected in a.
@@ -248,14 +248,20 @@
           }
         }
 
+<<<<<<< HEAD
 ## Deep Copy:
   - A deep copy means that a copy of the object is created. If any changes are made to a copy of object, it will not be reflected in the original object.
   - For example:
+=======
+# Deep Copy:
+  - A deep copy means that a copy of the object is created. If any changes are made to a copy of object, it will not be reflected in the original object. <br>
+  For example:
+>>>>>>> b5d72e31fc1268925d1eca5343e7367fc2cb99c8
 
-    Integer a = 10;
-    Integer b = new Integer(a);
-    b++;
-    System.out.println(a); // 10
+    Integer a = 10; <br>
+    Integer b = new Integer(a); <br>
+    b++; <br>
+    System.out.println(a); // 10 <br>
     System.out.println(b); // 11
 
   - In the above example, a copy of the object is created in b. So, any changes made to b will not be reflected in a.
@@ -293,5 +299,4 @@
   - Deep copy is used to copy the object of mutable classes like ArrayList, LinkedList, HashMap etc.
   - Shallow copy is faster than deep copy.
   - Deep copy is slower than shallow copy.
-
 </details>
