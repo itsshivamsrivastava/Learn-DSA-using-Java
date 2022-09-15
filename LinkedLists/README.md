@@ -14,6 +14,34 @@
 
 <img src="https://user-images.githubusercontent.com/73056786/190239678-18b42b01-59f7-46aa-8990-e066e0095ac1.png" alt="Linked-list"/>
 
+# Linked List Example:
+    import java.util.LinkedList;
+
+    public class LL {
+        public static void main(String[] args) {
+
+            // Create a linked list.
+            LinkedList<Integer> list = new LinkedList<Integer>();
+
+            // Print the linked list before adding elements.
+            System.out.println("Initial list: " + list);    // Empty linked list.
+
+            // Add elements to the linked list.
+            list.add(1);
+            list.add(2);
+            list.add(3);
+            list.add(4);
+            list.add(5);
+
+            // Print the linked list after adding elements.
+            System.out.println("List after adding elements: " + list);  // Expacted output [1, 2, 3, 4, 5]
+        }
+    }
+
+## Output
+    Initial list: []
+    List after adding elements: [1, 2, 3, 4, 5]
+
 ## Types of Linked List
   1. Singly Linked List
   2. Doubly Linked List
@@ -91,33 +119,6 @@
    4. clear()
    5. indexOf()
    6. lastIndexOf() and so on.
-
-# Linked List Example:
-    import java.util.LinkedList;
-
-    public class LL {
-        public static void main(String[] args) {
-
-            // Create a linked list.
-            LinkedList<Integer> list = new LinkedList<Integer>();
-
-            // Print the linked list before adding elements.
-            System.out.println("Initial list: " + list);    // Empty linked list.
-
-            // Add elements to the linked list.
-            list.add(1);
-            list.add(2);
-            list.add(3);
-            list.add(4);
-            list.add(5);
-
-            // Print the linked list after adding elements.
-            System.out.println("List after adding elements: " + list);  // Expacted output [1, 2, 3, 4, 5]
-        }
-    }
-## Output
-    Initial list: []
-    List after adding elements: [1, 2, 3, 4, 5]
 
 # Difference between Linked List and Array, vector, stack, queue, Tree, Graph, and so on.
 
