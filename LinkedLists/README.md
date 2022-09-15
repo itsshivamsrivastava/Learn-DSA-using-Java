@@ -1,4 +1,9 @@
-# DSA - Linked List
+<details>
+<summary>
+
+# Introduction to Linked List
+</summary>
+
 - A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations.
 - The elements in a linked list are linked using pointers.
 - A linked list is a dynamic data structure.
@@ -14,7 +19,7 @@
 
 <img src="https://user-images.githubusercontent.com/73056786/190239678-18b42b01-59f7-46aa-8990-e066e0095ac1.png" alt="Linked-list"/>
 
-# Linked List Example
+## Linked List Example
     import java.util.LinkedList;
 
     public class LL {
@@ -42,10 +47,24 @@
     Initial list: []
     List after adding elements: [1, 2, 3, 4, 5]
 
-## Types of Linked List
+</details>
+
+<details>
+<summary>
+
+# Types of Linked List
+</summary>
+
   1. Singly Linked List
   2. Doubly Linked List
   3. Circular Linked List
+</details>
+
+<details>
+<summary>
+
+# Advantages & disadvantages of Linked List
+</summary>
 
 ## Advantages of Linked List
   1. Dynamic Size (No need to specify the size of the list)
@@ -65,15 +84,27 @@
   1. Implementation of stacks and queues.
   2. Implementation of graphs, hash tables, adjacency lists, and dynamic memory allocation.
   3. Implementation of undo functionality in text editors.
+</details>
 
-## Implementation of Linked List
+<details>
+<summary>
+
+# Implementation of Linked List
+</summary>
+
    1. Using Arrays
    2. Using Pointers
    3. Using Classes
 
 **Note:** The last node will contain address as NULL to mark the end of the list.
+</details>
 
-## Operations on Linked List
+<details>
+<summary>
+
+# Operations on Linked List
+</summary>
+
   1. Insertion
   2. Deletion
   3. Traversal
@@ -90,8 +121,14 @@
     a. Deletion at the beginning <br>
     b. Deletion at the end <br>
     c. Deletion at a given position <br>
+</details>
 
-# Linked list in Java
+<details>
+<summary>
+
+# Java - Linked list
+</summary>
+
   - We can implement a linked list in Java using the LinkedList class.
   - The LinkedList class implements the List interface and extends the AbstractSequentialList class.
   - The LinkedList class is a doubly linked list implementation of the List and Deque interfaces.
@@ -119,8 +156,13 @@
    4. clear()
    5. indexOf()
    6. lastIndexOf() and so on.
+</details>
+
+<details>
+<summary>
 
 # Difference between Linked List and Array, vector, stack, queue, Tree, Graph, and so on.
+</summary>
 
 ## Linked List vs Array: 
   1. Arrays can be used to store linear data of similar types, but linked lists (generally) consists of nodes where each node contains a data field and a reference(link) to the next node in the list.
@@ -166,8 +208,15 @@
   3. Graph is synchronized while linked list is not.
   4. Graph is implemented using array while linked list is implemented using pointers.
   5. Graph is better for storing and accessing data while linked list is better for manipulating data.
+</details>
 
-# Shallow Copy:
+<details>
+<summary>
+
+# Shallow Copy and Deep Copy
+</summary>
+
+## Shallow Copy:
   - A shallow copy means that only the reference of the object is copied. If any changes are made to a copy of object, it will be reflected in the original object.
   - In Java, all wrapper classes (like Integer, Boolean, Byte etc) and String class are immutable. So, when we assign any variable to another, a copy of the reference is created. For example:
 
@@ -199,7 +248,7 @@
           }
         }
 
-# Deep Copy:
+## Deep Copy:
   - A deep copy means that a copy of the object is created. If any changes are made to a copy of object, it will not be reflected in the original object.
   - For example:
 
@@ -231,10 +280,18 @@
             }
         }
 
+</details>
+
+<details>
+<summary>
 # Difference between Shallow Copy and Deep Copy:
+</summary>
+
   - Shallow copy creates a new object and copies the reference of the original object to the new object. So, any changes made to the new object will be reflected in the original object.
   - Deep copy creates a new object and copies the values of the original object to the new object. So, any changes made to the new object will not be reflected in the original object.
   - Shallow copy is used to copy the object of immutable classes like String, Integer, Boolean etc.
   - Deep copy is used to copy the object of mutable classes like ArrayList, LinkedList, HashMap etc.
   - Shallow copy is faster than deep copy.
   - Deep copy is slower than shallow copy.
+
+</details>
