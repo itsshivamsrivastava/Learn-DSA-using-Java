@@ -166,3 +166,75 @@
   3. Graph is synchronized while linked list is not.
   4. Graph is implemented using array while linked list is implemented using pointers.
   5. Graph is better for storing and accessing data while linked list is better for manipulating data.
+
+# Shallow Copy:
+  - A shallow copy means that only the reference of the object is copied. If any changes are made to a copy of object, it will be reflected in the original object.
+  - In Java, all wrapper classes (like Integer, Boolean, Byte etc) and String class are immutable. So, when we assign any variable to another, a copy of the reference is created. For example:
+
+    Integer a = 10;
+    Integer b = a;
+    b++;
+    System.out.println(a); // 10
+    System.out.println(b); // 11
+
+  - In the above example, a copy of the reference of a is created in b. So, any changes made to b will be reflected in a.
+
+  ## Example of Shallow Copy using Linked List:
+        import java.util.LinkedList;
+        public class ShallowCopy {
+          public static void main(String[] args) {
+            LinkedList<String> list1 = new LinkedList<String>();
+
+            list1.add("A");
+            list1.add("B");
+            list1.add("C");
+            list1.add("D");
+
+            System.out.println("List1: " + list1);
+            
+            LinkedList<String> list2 = list1;
+            list2.add("E");
+            list2.add("F");
+            System.out.println("List2: " + list2);
+          }
+        }
+
+# Deep Copy:
+  - A deep copy means that a copy of the object is created. If any changes are made to a copy of object, it will not be reflected in the original object.
+  - For example:
+
+    Integer a = 10;
+    Integer b = new Integer(a);
+    b++;
+    System.out.println(a); // 10
+    System.out.println(b); // 11
+
+  - In the above example, a copy of the object is created in b. So, any changes made to b will not be reflected in a.
+
+  ## Example of deep copy in linked list
+
+        import java.util.LinkedList;
+        public class LinkedListExample {
+            public static void main(String[] args) {
+                LinkedList<String> list = new LinkedList<String>();
+
+                list.add("A");
+                list.add("B");
+                list.add("C");
+                list.add("D");
+                list.add("E");
+                
+                System.out.println("Original List: " + list);
+                
+                LinkedList<Integer> deepCopy = new LinkedList<Integer>(list);
+                System.out.println("Cloned List: " + deepCopy);
+            }
+        }
+
+# Difference between Shallow Copy and Deep Copy:
+  - Shallow copy creates a new object and copies the reference of the original object to the new object. So, any changes made to the new object will be reflected in the original object.
+  - Deep copy creates a new object and copies the values of the original object to the new object. So, any changes made to the new object will not be reflected in the original object.
+  - Shallow copy is used to copy the object of immutable classes like String, Integer, Boolean etc.
+  - Deep copy is used to copy the object of mutable classes like ArrayList, LinkedList, HashMap etc.
+  - Shallow copy is faster than deep copy.
+  - Deep copy is slower than shallow copy.
