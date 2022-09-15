@@ -14,7 +14,7 @@
 
 <img src="https://user-images.githubusercontent.com/73056786/190239678-18b42b01-59f7-46aa-8990-e066e0095ac1.png" alt="Linked-list"/>
 
-# Linked List Example:
+# Linked List Example
     import java.util.LinkedList;
 
     public class LL {
