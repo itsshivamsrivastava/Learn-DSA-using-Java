@@ -126,7 +126,7 @@
 <details>
 <summary>
 
-# Java - Linked list
+# Linked list in Java
 </summary>
 
   - We can implement a linked list in Java using the LinkedList class.
