@@ -161,7 +161,7 @@
 <details>
 <summary>
 
-# Difference between Linked List and Array, vector, stack, queue, Tree, Graph, and so on.
+# Difference between Linked List and Array, vector, stack, and so on
 </summary>
 
 ## Linked List vs Array: 
