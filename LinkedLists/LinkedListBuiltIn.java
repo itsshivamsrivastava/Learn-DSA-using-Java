@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-public class LL {
+public class LinkedListBuiltIn {
     public static void main(String[] args) {
         
         // Create a linked list.
