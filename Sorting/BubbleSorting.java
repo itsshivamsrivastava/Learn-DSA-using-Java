@@ -12,7 +12,7 @@ public class BubbleSorting {
     }
 
     // Bubble Sort
-    static void bubbleSort(int[] arr) {
+    public static void bubbleSort(int[] arr) {
 
         // Length of the array
         int n = arr.length;

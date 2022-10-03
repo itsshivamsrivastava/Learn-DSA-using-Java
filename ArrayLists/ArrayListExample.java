@@ -54,3 +54,29 @@ public class ArrayListExample {
         System.out.println(list1);
     }
 }
+
+/*
+    Java interview questions:
+    
+    Q1. What is the difference between ArrayList and LinkedList?
+    Ans 1. ArrayList is implemented using dynamic array and LinkedList is implemented using doubly linked list.
+
+    Q2. What is the difference between ArrayList and Vector?
+    Ans 2. ArrayList is not synchronized and Vector is synchronized.
+
+    Q3. What is the difference between ArrayList and Stack?
+    Ans 3. ArrayList is not synchronized and Stack is synchronized.
+
+    Q4. What is the difference between ArrayList and HashSet?
+    Ans 4. ArrayList is ordered and HashSet is unordered.
+
+    Q5. What is the difference between ArrayList and HashMap?
+    Ans 5. ArrayList is ordered and HashMap is unordered.
+
+    Q6. What is the difference between ArrayList and TreeSet?
+    Ans 6. ArrayList is ordered and TreeSet is ordered.
+            
+    Q7. What is the difference between ArrayList and TreeMap?
+    Ans 7. ArrayList is ordered and TreeMap is ordered.
+
+*/
