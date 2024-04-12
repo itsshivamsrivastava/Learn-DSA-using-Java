@@ -15,8 +15,8 @@ public class BitManipulation {
     */
     public static void main(String[] args) {
 
+        // Get Bit Operation
         /*
-        * Get Bit Operation:
         Get the 2nd bit (position = 2) of a number n. (n = 0101)
         i.) Bit Mask: 1 << i     (i --> position)
         ii.) Operation: AND
@@ -34,8 +34,8 @@ public class BitManipulation {
         }
         */
 
+        // Set Bit Operation
         /*
-        * Set Bit Operation:
         Set the 2nd bit (position = 1) of a number n. (n = 0101)
         i.) Bit Mask: 1 << i     (i --> position)
         ii.) Operation: OR
@@ -48,8 +48,8 @@ public class BitManipulation {
         System.out.println(newNumber);
         */
 
+        // Clear Bit Operation
         /*
-        * Clear Bit Operation:
         Clear the 3rd bit (position = 2) of a number n. (n = 0101)
         i.) Bit Mask: 1 << i     (i --> position)
         ii.) Operation: AND with NOT
@@ -62,8 +62,8 @@ public class BitManipulation {
         System.out.println(newNumber);
         */
 
+        // Update Bit Operation
         /*
-        * Update Bit Operation:
         Update the 2nd bit (position = 1) of a number n to 1. (n = 0101)
         (i --> position)
             For 0 (Clear)                        For 1 (Set)
