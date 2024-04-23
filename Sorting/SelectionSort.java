@@ -2,8 +2,8 @@ package Sorting;
 
 public class SelectionSort {
     public static void main(String[] args) {
-        // int arr[] = {4,5,1,2,3};
-        int arr[] = {2,-32,0,78,1};
+        int arr[] = {7,8,3,1,2};
+        // int arr[] = {2,-32,0,78,1};
         int n = arr.length;
         selectionSort(arr);
         for(int i = 0; i < n; i++){
