@@ -1,11 +1,11 @@
 package Recursion;
 
-// Learn from Shardha Didi (Apna College)
+// Learn from Shardha Khapra (Apna College)
 public class Recursion {
 
     // Recusive calls always in the form of stacks.
     public static void printNumbers5to1(int n) {
-        if (n == 10) { // Base condition
+        if (n == 0) { // Base condition
             return;
         }
         /* Q1. Print numbers from 5 to 1 */
@@ -15,15 +15,17 @@ public class Recursion {
 
     // /*Q2. Print numbers from 1 to 5 */
     public static void printNumbers1to5(int n) {
+        if(n == 6){
+            return;
+        }
         System.out.println(n);
         printNumbers1to5(n + 1); // Recursive calling
-
     }
 
     /* Q3. Print sum of first n natural numbers from 1 to 5 */
     public static void printSum(int i, int n, int sum) {
         if (i == n) {
-            sum += i;
+            // sum += i;
             System.out.println(sum);
             return;
         }
@@ -31,7 +33,7 @@ public class Recursion {
         printSum(i + 1, n, sum); // Recursive calling
         System.out.println(i);
     }
-    
+    // 
     /*Q4. Print factorial of a number. */
     public static int printFactorial(int n){
         if(n == 1 || n == 0){
@@ -68,33 +70,34 @@ public class Recursion {
         if(x == 0){
             return 0;
         }
-        int xPowernm1 = calcPower(x, n-1);
-        int xPown = x * xPowernm1;
-        return xPown;
+        // int xPower_n_minus_1 = calcPower(x, n-1);
+        // int xPown = x * xPower_n_minus_1;
+        // return xPown;
+
+        // if n is even
+        if(n%2 == 0){
+            return(calcPower(x, n/2) * calcPower(x, n/2));
+        }
+        // else n is odd
+        else{
+            return(calcPower(x, n/2) * calcPower(x, n/2) * x);
+        }
     }
 
     
     public static void main(String[] args) {
         
         /* Q1. Print numbers from 5 to 1 */
-        // int m = 5;
-        // // Calling function...
-        // printNumbers5to1(m); // n = 5
+        // printNumbers5to1(5); // m = 5
         
         /* Q2. Print numbers from 1 to 5 */
-        // int n = 1;
-        // // Calling function...
-        // printNumbers1to5(n); // n = 1
+        // printNumbers1to5(1); // n = 1
         
         /* Q3. Print sum of first n natural numbers from 1 to 5 */
-        // int i = 1;
-        // int o = 5;
-        // int sum = 0;
-        // printSum(i, o, sum);    // Calling function...
+        // printSum(1, 5, 0);    // Calling function...
 
         /*Q4. Print factorial of a number. */
-        // int n = 5;
-        // int ans = printFactorial(n);
+        // int ans = printFactorial(5);
         // System.out.println(ans);
         
         /* Q5. Print the fibonacci sequence till nth term. */
